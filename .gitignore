@@ -1,0 +1,22 @@
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+.env
+*.pyc
+*.pyo
+*.egg-info/
+
+logs/
+plugins/
+airflow.db
+webserver_config.py
+
+data/raw/
+data/processed/
+
+# Existing folders in this workspace that are not part of this project.
+photogrammetry_pipeline_project/
+R2V_GRAD_2-main/
